@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_black_gradient"
+    tools:context=".Community_Archives">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForGRE"
+        android:layout_width="203dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="496dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="GRE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Test Prep Resources"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FAF60582"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="398dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="We want to help women increase their scores on the SAT and ACT, particularly the math portion. Taking one of these tests soon? Check out our study resources here."
+        android:textAlignment="center"
+        android:textColor="#FAF60582"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForACT"
+        android:layout_width="203dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="ACT"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForSAT"
+        android:layout_width="203dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="SAT"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="371dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="412dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Applying to grad school? Check out our GRE study resources here."
+        android:textAlignment="center"
+        android:textColor="#FAF60582"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

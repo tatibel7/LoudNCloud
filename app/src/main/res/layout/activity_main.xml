@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_black_gradient"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForCommunity"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Community Archives"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForMission"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="268dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#FAF60582"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Learn About Our Mission Here."
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForMentor"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="448dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Find A Mentor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForEvents"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Upcoming Events"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForStudyResources"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="388dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Test Prep Resources"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="410dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_transp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

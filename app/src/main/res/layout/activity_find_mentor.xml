@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_black_gradient"
+    tools:context=".Find_Mentor">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Find A Mentor"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FAF60582"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Trying to figure out your career path can be confusing and lonely, but it doesn't have to be. Connect with a mentor here!"
+        android:textAlignment="center"
+        android:textColor="#FAF60582"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/anaisInfo"
+        android:layout_width="177dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Specialties: information systems, marketing"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForAnais"
+        android:layout_width="128dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="444dp"
+        android:background="@drawable/button_with_border"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Message Anais"
+        android:textColor="#FAF60582"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForLaura"
+        android:layout_width="128dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="444dp"
+        android:background="@drawable/button_with_border"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Message Laura"
+        android:textColor="#FAF60582"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForTati"
+        android:layout_width="128dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="764dp"
+        android:background="@drawable/button_with_border"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Message Tatiana"
+        android:textColor="#FAF60582"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonForVictoria"
+        android:layout_width="128dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="764dp"
+        android:background="@drawable/button_with_border"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Message Victoria"
+        android:textColor="#FAF60582"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lauraInfo"
+        android:layout_width="172dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Specialties: computer science"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tatiInfo"
+        android:layout_width="165dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="668dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Specialties: computer science, geoscience"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/victoriaInfo"
+        android:layout_width="160dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="668dp"
+        android:fontFamily="@font/poppins"
+        android:fontWeight="400"
+        android:text="Specialties: information systems, business administration"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="154dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="228dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anais_circle" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="154dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="228dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/laura_circle" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="154dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="524dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tatiana_circle" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="154dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="524dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/victoria_circle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
